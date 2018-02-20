@@ -45,7 +45,7 @@ public class StepDefinations {
         //startBrowser();
         Assert.assertEquals(driver.getCurrentUrl(),"https://www.google.co.uk/");
         System.out.println("Page : "+driver.getCurrentUrl());
-        System.out.println("I am on Google Home Page.");
+        System.out.println("I am on Google Home Page.  changed 20Feb.");
     }
 
 
