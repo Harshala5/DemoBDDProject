@@ -19,5 +19,4 @@ public class FirstStepDef {
         System.out.println("Then: user can see y element.");
     }
 
-
 }

@@ -64,4 +64,14 @@ public class StepDefinations {
         System.out.println("after click: "+driver.getTitle());
         System.out.println("Gmail Page displayed.");
     }
+
+    @Given("^User on z page$")
+    public void user_on_z_page() throws Throwable {
+        System.out.println("Second scenario z page");
+    }
+
+    @Then("^User can see a element$")
+    public void user_can_see_a_element() throws Throwable {
+        System.out.println("Second scenario see element");
+    }
 }
